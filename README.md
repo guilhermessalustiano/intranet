@@ -1,6 +1,6 @@
-# Intranet LABJOR
+# Intranet
 
-Sistema web desenvolvido em PHP e MySQL para gerenciamento interno.
+Sistema web de Intranet desenvolvido durante o estágio no Labjor entre abril de 2024 e abril de 2026. Possui módulos de agendamento, reserva de equipamentos e gerenciamento de cadastros. É integrado à Autenticação Central da Unicamp, mas pode ser implementado login comum.
 
 ## Funcionalidades
 
