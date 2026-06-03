@@ -1,0 +1,228 @@
+.navbar-iel-azul .navbar-brand {
+  color: #fff;
+}
+
+.navbar-iel-azul .navbar-brand:hover, .navbar-iel-azul .navbar-brand:focus {
+  color: #fff;
+}
+
+.navbar-iel-azul .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-iel-azul .navbar-nav .nav-link:hover, .navbar-iel-azul .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-iel-azul .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-iel-azul .navbar-nav .show > .nav-link,
+.navbar-iel-azul .navbar-nav .active > .nav-link,
+.navbar-iel-azul .navbar-nav .nav-link.show,
+.navbar-iel-azul .navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+.navbar-iel-azul .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-iel-azul .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-iel-azul .navbar-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-iel-azul .navbar-text a {
+  color: #fff;
+}
+
+.navbar-iel-azul .navbar-text a:hover, .navbar-iel-azul .navbar-text a:focus {
+  color: #fff;
+}
+
+.navbar-iel-azul .nav-item {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-iel-azul {
+  background-color: #006699 !important;
+}
+
+a.bg-iel-azul:hover, a.bg-iel-azul:focus, button.bg-iel-azul:hover, button.bg-iel-azul:focus {
+  background-color: #FFEEAA !important;
+}
+
+h3.bg-iel-azul, h4.bg-iel-azul, h5.bg-iel-azul {
+  color: #fff;
+  display:inline;
+}
+
+.dropdown-item-iel-azul {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: #006699;
+  border: 0;
+}
+
+.dropdown-item-iel-azul:first-child {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.dropdown-item-iel-azul:last-child {
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.dropdown-item-iel-azul:hover, .dropdown-item-iel-azul:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+.iel-page {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+.iel-container {
+  padding-bottom: 2rem;
+}
+
+.iel-footer-azul {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height: 2rem;
+  
+  display: block;
+  font-size: .75em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.logout-iel-azul {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: #006699;
+  border: 0;
+}
+.logout-iel-azul:hover, .logout-iel-azul:focus {
+  color: rgba(255, 255, 255, 1);
+}
+.iel-center {
+  text-align: center;
+}
+
+/*--------------------Customizacao Labjor--------------------*/
+
+.btn-primary, .btn-primary:hover {
+    color: #fff;
+    background-color:rgba(160, 0, 0, 0.75) !important;
+    border-color: rgba(161, 0, 0, 0.85) !important;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #000000;
+    text-decoration: underline;
+}
+
+a, a:hover {
+    color: rgba(161, 0, 0, 0.85);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.btn-link:hover {
+    color: rgba(161, 0, 0, 0.85);
+    text-decoration: underline;
+}
+
+.table-primary, .table-primary>td, .table-primary>th {
+    background-color:#ccc !important;
+}
+
+.table-primary tbody+tbody, .table-primary td, .table-primary th, .table-primary thead th {
+    border-color: #bbb;
+}
+
+.bg-iel-vermelho {
+    /*background-color: rgba(130,30,40) !important;*/
+    background-color: rgba(130,30,40) !important;
+}
+
+h3.bg-iel-vermelho, h4.bg-iel-vermelho, h5.bg-iel-vermelho {
+    color: #fff;
+    display: inline;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(130,30,40) !important;
+   color: white;
+   text-align: center;
+}
+
+/*--------------------Modulo Reserva de Salas--------------------*/
+.fc-event {
+  cursor: pointer;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.75em;
+  margin: 0px;
+}
+
+ /* Estilo dos eventos no estado de hover */
+ .fc-event:hover {
+  background-color: #ccc;
+}
+
+.eventColor {
+  width: 15px; /* Largura do quadrado */
+  height: 15px; /* Altura do quadrado */
+  display: inline-block;
+  margin-right: 7px; /* Margem à direita para separação do texto */
+}
+
+.hover-highlight {
+  background-color: yellow; /* Cor de destaque */
+  border-color: red; /* Cor da borda de destaque */
+}
+
+
+
+/* trumbowyg TOP AND FREE EDITOR!!! */
+.trumbowyg-editor-box {
+  background-color: white !important;
+}
+
+.trumbowyg-box {
+      min-height: 50px !important;
+}
+
+.trumbowyg-button-pane button.trumbowyg-insertImage-button {
+  display: none !important;
+}

@@ -1,0 +1,12 @@
+
+td, td,
+th, th {
+    text-align: center!important;      /* horizontal */
+    vertical-align: middle!important;  /* vertical */
+}
+
+table.dataTable>tbody>tr>td {
+    padding: 3px 5px!important;
+}
+
+

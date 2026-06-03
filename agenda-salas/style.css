@@ -1,0 +1,52 @@
+
+
+/*  --------- CSS DO COMPONENTES AGENDA */
+.agenda-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.agenda-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--agenda-color);
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.agenda-checkbox:checked {
+  background-color: var(--agenda-color);
+  border-color: var(--agenda-color);
+}
+
+.agenda-checkbox:checked::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.agenda-checkbox:hover {
+  border-color: var(--agenda-color);
+  opacity: 0.8;
+}
+
+label {
+  font-size: 14px;
+  color: #333;
+}
+
+.fc-event{
+  width: 90%
+}

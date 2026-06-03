@@ -1,0 +1,31 @@
+
+td, td,
+th, th {
+    text-align: center!important;      /* horizontal */
+    vertical-align: middle!important;  /* vertical */
+}
+
+
+.equipamentos-col {
+    text-align: left!important;      /* alinha à esquerda */
+    white-space: normal;   /* permite quebrar linhas */
+    min-width:250px;
+}
+
+.telefone-col {
+    text-align: left!important;      /* alinha à esquerda */
+    white-space: normal;   /* permite quebrar linhas */
+    min-width:150px;
+}
+
+.obs-col {
+    text-align: left!important;      /* alinha à esquerda */
+    white-space: normal;   /* permite quebrar linhas */
+    max-width:150px!important;
+    font-size: 0.9rem;    
+
+}
+
+table.dataTable>tbody>tr>td {
+    padding: 3px 5px!important;
+}

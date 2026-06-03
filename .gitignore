@@ -1,0 +1,26 @@
+# Dependências
+vendor/
+node_modules/
+
+# Configurações locais
+.env
+.env.*
+connect.php
+agenda-salas/php_js/connect.php
+comum/funcoes.php
+keycloak_properties.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+cache/
+tmp/
